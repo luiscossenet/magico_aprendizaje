@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: darkgray;
+    height: 600px;
+}
+
+div{
+   /* width: 100px;*/
+   
+    background-color:coral ;
+    margin: 5px;
+    
+}
+
+/* GRID*/
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 2fr 1fr;
+}
+
+.repetitivo{
+    display: grid;
+    grid-template-columns: repeat(12,3fr);
+    grid-template-rows:  repeat(12,3fr);
+}

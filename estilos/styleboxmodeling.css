@@ -1,0 +1,109 @@
+/*
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+</style>
+
+
+selector {
+    propiedad:valor;
+}
+
+El punto . indica que es una clase
+El numeral # indica que es un ID
+la etiqueta , como etiqueta
+etiqueta-> / Clase--> / ID
+EL signo ! al final de la propiedad, indica important y prevalece
+
+1 em = 16 pixeles
+La unidad em tiene como referencia de medida el font-size del elemento actual.
+La unidad rem tiene como referencia de medida el font-size del elemento root, la etiqueta <html> (en inglés sería como "root em").
+
+El uso de *{ padding y margin es reseteo}
+
+*/
+*{
+    padding:0%;
+    margin: 0%;
+}
+html{
+    font-size: 16px;
+}
+
+body{
+     color: cornsilk;
+}
+
+header{
+      /*solo colocando padding */
+      background-color: blueviolet;
+      padding: 80px;
+      margin-top: 0%;
+}
+
+ul{
+    list-style: none;
+    font-size: 0;
+    
+}
+
+li{
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    font-size: 30px;
+}
+
+ul ul{
+    position: absolute;
+    display: none;
+}
+
+ul ul li{
+    display: block;
+}
+
+ul li :hover ul{
+    display: block;
+}
+
+
+h1{
+    color: black;
+    padding: 40px;
+    margin: 80px 40px 80px 40px;
+    border: 20px solid black;
+    /* fixed queda fijo*/ 
+    position: sticky;
+    top: 40px
+ 
+}
+p{
+    color: black;
+    padding: 40px;
+    margin-right: 400px;    
+    margin-top: 60px;
+    margin-left: 60px;
+    border: 10px solid blueviolet;
+}
+
+.segundo__parrafo{
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: crimson;
+}
+
+img{
+    margin-top: 40px;
+    margin-left: 200px;
+    border-radius: 1cm;
+    border: 10px double blueviolet;
+
+}
+footer{
+    padding: 80px;
+    margin-bottom: 0%;
+    margin-top: 450px;
+    background-color: blueviolet;
+}
+

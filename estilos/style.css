@@ -1,0 +1,68 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+</style>
+
+
+/*
+
+selector {
+    propiedad:valor;
+}
+
+El punto . indica que es una clase
+El numeral # indica que es un ID
+la etiqueta , como etiqueta
+etiqueta-> / Clase--> / ID
+EL signo ! al final de la propiedad, indica important y prevalece
+
+1 em = 16 pixeles
+La unidad em tiene como referencia de medida el font-size del elemento actual.
+La unidad rem tiene como referencia de medida el font-size del elemento root, la etiqueta <html> (en inglés sería como "root em").
+
+El uso de *{ padding y margin es reseteo}
+
+*/
+*{
+    padding:0%;
+    margin: 0%;
+}
+html{
+    font-size: 25px;
+}
+
+body{
+     color: cornsilk;
+     background-color: chartreuse;
+     background-image: url(../imagenes/ufc.jpg);
+     background-repeat: repeat-x;
+}
+
+p {
+    color: crimson;
+    font-size: 1rem;
+}
+
+strong {
+    color:darkred;
+}
+.parrafo{
+    color:darkgreen;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    text-transform: capitalize;
+    letter-spacing: 0.5%;
+    word-spacing: 1cm;
+    
+
+#parrafito{
+    font-family:serif;
+    color:blue;
+}
+.font {
+    font-size: 70%;
+    /*color:darkblue;*/
+}
